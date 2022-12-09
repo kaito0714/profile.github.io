@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slide.css">
 	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="css/popup.css">
 	<link
 		href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
 		rel="stylesheet">
@@ -102,21 +103,24 @@
 						データ解析に時間がかかることに困っている方の助けになればいいなと思い、公開しています<br>
 						不備や改善案があれば教えていただきたいです<br>
 						是非ご覧ください<br>
-						<a href="https://github.com/kaito0714">これまでに作成したコード</a>
+						<label for="trigger" class="open_button">これまでに作成したコード</label>
+						
 					</p>
-					
-					<!-- <div id="code_article" class="modal code-modal">
-						<div class="modal_bg code_modal_close">
-						</div>
-						  <div class="code_modal_content">
+				</div>
+				<div class="modal_wrap">
+					<input id="trigger" type="checkbox">
+					<div class="modal_overlay">
+						<label for="trigger" class="modal_trigger"></label>
+						<div class="modal_content">
+							<label for="trigger" class="close_button">✖️</label>
+							<p class="modal_title2">コード一覧</p>
 							<ul>
-								<li><a href="#">スペクトルスイートのデータ処理</a></li>
-								<li><a href="#">横河スペクトルアナライザーのデータ処理</a></li>
-								<li><a href="#">グリズム対設計</a></li>
+								<li><a href="https://github.com/kaito0714/spectrum">スペクトルスイートのデータ処理</a></li>
+								<li><a href="https://github.com/kaito0714/grism">グリズム対設計</a></li>
+								<li><a href="https://github.com/kaito0714/frog">FROG用処理プログラム</a></li>
 							</ul>
-							<a href="#" class="code_modal_close">閉じる</a>
-						  </div>
-					  </div> -->
+						</div>
+					</div>
 				</div>
 			</div>
 			<div id="article" class="Tabcondent">
@@ -150,7 +154,7 @@
 	<footer></footer>
 	<!----- /footer ----->
 	<script src="js/main.js"></script>
-	<!-- <script src="js/popup.js"></script> -->
+
 </body>
 
 </html>
