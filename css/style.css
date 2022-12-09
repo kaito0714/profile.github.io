@@ -285,9 +285,13 @@ nav {
     }
 
     /* ========== profile ========== */
+    #profile div {
+        display: block;
+    }
+    
     #profile img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     #profile p {
