@@ -209,6 +209,7 @@ nav {
 /* ========== coffee ========== */
 
 #coffee p {
+    
     display: block;
     text-align: left;
     padding: 10px 20px;
@@ -314,6 +315,10 @@ nav {
     #profile p {
         margin-top: 0;
     }
+    
+    /* ========== coffee ========== */
+    #coffee p {
+        font-size: 10px;
 
     /* ========== skill ========== */
     #skill_column li:first-child {
