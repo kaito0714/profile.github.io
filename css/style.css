@@ -259,6 +259,23 @@ nav {
     padding: 10px 20px;
 }
 
+#works div {
+    display: flex;
+    justify-content: space-around;
+}
+#works figure {
+    text-align: center;
+}
+
+#works figure img {
+    max-width: 250px;
+    vertical-align: bottom;
+}
+
+#works figcaption {
+    font-size: 10px;
+}
+
 @media screen and (max-width: 700px) {
     p,a {
         font-size: 13px;
@@ -306,5 +323,11 @@ nav {
     #skill_column li {
         margin: 0;
     }
+    
+        /* ========== works ========== */
+    #works div {
+        display: block;
+    }
+
 
 }
